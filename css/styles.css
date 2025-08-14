@@ -1,7 +1,10 @@
 *,
-*::before,
-*::after {
+*::before {
   box-sizing: border-box;
+}
+*::after:hover {
+  box-sizing: border-box;
+  text-decoration: underline;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -202,6 +205,7 @@ button:hover {
 }
 .card-2:hover .overlay {
   transform: translateY(0);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-image-2 {
   object-fit: cover;
