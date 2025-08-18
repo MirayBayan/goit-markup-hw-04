@@ -35,7 +35,7 @@ header {
   font-family: Raleway, sans-serif;
   color: #2e2f42;
   text-decoration: none;
-  font-size: 18;
+  font-size: 18px;
   font-weight: bold;
 }
 .logo span {
@@ -99,7 +99,6 @@ button {
   cursor: pointer;
   display: block;
   margin: auto;
-  visibility: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -259,7 +258,6 @@ h1 {
   width: 514px;
   height: 140px;
   text-align: center;
-  visibility: hidden;
 }
 h3 {
   padding: 0;
